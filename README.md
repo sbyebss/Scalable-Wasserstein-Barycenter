@@ -28,14 +28,16 @@ The following python packages are required:
 
 ## Code structure
 
-- The scripts in the root such as `G2G_sameW_3loop.py` are the core code for our NWB (Neural Wasserstein Barycenter) implementation.
-- `generator_example/` contains the scripts to generate comparison results or visualization.
+- The scripts in the root such as `G2G_sameW_3loop.py` are the core code for our NWB (Neural Wasserstein Barycenter) implementation. For example, if you are interested in Gaussian example, run in terminal `python G2G_sameW_3loop.py --parameter_1 param1_value --parameter_2 param2_value`.
+
+- `generator_example/` contains the scripts to generate comparison results or visualization. For example, if you are interested in Gaussian example, run in terminal `python ./generator_example/NWB1_gmm.py --parameter_1 param1_value --parameter_2 param2_value`.
+
 - `optimal_transport_modules/` contains the auxiliary utility modules.
 
-### config file
+## config file
 
 The configuration of an experiment is entirely described by a `optimal_transport_modules/cfg.py` config file. If you want to change the parameter, please change them there.
 
-#### What if you find a bug?
+## What if you find a bug?
 
 This repository is still under construction. If you meet a bug when you run the code, please raise up an issue, thank you!
