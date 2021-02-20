@@ -1,0 +1,36 @@
+*.vscode/
+__pycache__
+Example/
+archived_Files
+*.swp
+*.gif
+*.mat
+for_transit
+# *.png
+error_bar_exp/
+stochastic/
+old_not_delete/h_Linear:No_Normal
+prepare_delete/
+data
+
+*npy
+official_examples
+*bz2
+*tar.gz
+*batches-py
+runner.py
+*mean_field
+
+# input_data
+# input_data/mnist_data/MNIST
+# input_data/color_transfer
+# input_data/bayesian_inference/bike_posterior
+*inception_score
+# *.pt
+
+#upload to open
+# log.md
+# *FSB*
+# runner.py
+# test
+# *train_utils
