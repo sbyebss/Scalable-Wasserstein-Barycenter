@@ -15,7 +15,7 @@ year={2021}
 
 ## Dependencies and Installation
 
-The following python packages are required:
+1. The following python packages are required:
 
 - pytorch (>= 1.3.1)
 - [GPUtil](https://github.com/anderskm/gputil)
@@ -25,6 +25,8 @@ The following python packages are required:
 - matplotlib
 - [jacinle](https://github.com/vacancy/Jacinle)
 - [pytorch_fid](https://github.com/mseitzer/pytorch-fid)
+
+2. [git large file storage](https://git-lfs.github.com/) has to be initialized to download the input data.
 
 ## Code structure
 
